@@ -7,5 +7,6 @@ public class App
         System.out.println( "Hello World!" );
         System.out.println( "This is 1st change!" );
         System.out.println( "This is 2st change!" );
+        System.out.println( "This is 2st change!" );
     }
 }
