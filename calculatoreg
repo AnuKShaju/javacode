@@ -260,7 +260,7 @@ public class ButtonFunction
 			catch(EmptyStackException tooManySymbols)
 				{	// the postfixt method can not handle the input
 					Calculator.history.setText(Calculator.textField.getText() +  "Invalid Input" + "\n\n"+ Calculator.history.getText());
-					Calculator.textField.setText("Invalid input");
+					Calculator.textField.setText("Invalid input entered");
 					JOptionPane.showMessageDialog(new JFrame(), "Invalid input!", "Error", JOptionPane.ERROR_MESSAGE);
 					// clear the text field if the error pops up
 					ButtonFunction.clear();
@@ -269,7 +269,7 @@ public class ButtonFunction
 			catch(StringIndexOutOfBoundsException pressingEqualWithNoOP)
 				{
 					Calculator.history.setText(Calculator.textField.getText() +  "No Operators/Operands found!" + "\n\n"+ Calculator.history.getText());
-					Calculator.textField.setText("Invalid input");
+					Calculator.textField.setText("Invalid input entered");
 					JOptionPane.showMessageDialog(new JFrame(), "Invalid input!", "Error", JOptionPane.ERROR_MESSAGE);
 					// clear the text field if the error pops up
 					ButtonFunction.clear();
