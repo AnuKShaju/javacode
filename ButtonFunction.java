@@ -137,7 +137,7 @@ public class ButtonFunction
 				}
 			else
 				{   // if the element is not valid for the memory (if it's not a number)
-					JOptionPane.showMessageDialog(new JFrame(), "Please insert a valid number!", "Error", JOptionPane.ERROR_MESSAGE);
+					JOptionPane.showMessageDialog(new JFrame(), "Please insert a valid number", "Error", JOptionPane.ERROR_MESSAGE);
 					// display error in history
 					Calculator.history.setText(Calculator.textField.getText() + " is not a valid number to be added in memory!" + "\n\n"+ Calculator.history.getText());
 				}	
