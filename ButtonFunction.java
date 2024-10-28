@@ -27,6 +27,7 @@ public class ButtonFunction
 		}// end CLEAR
 	
 	// BACKSPACE BUTTON
+	//changedddd
 	public static void backspace()
 		{
 		try	// if there are characters to be deleted it will delete the last one
