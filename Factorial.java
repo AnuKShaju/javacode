@@ -7,7 +7,6 @@ public class Factorial {
     
     /**
      * Calculates the factorial of a non-negative integer n recursively.
-     * @param m the number to calculate the factorial of
      * @param n the number to calculate the factorial of
      * @return the factorial of n
      * @throws IllegalArgumentException if n is negative
